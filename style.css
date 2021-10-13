@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+}
+h3{
+    font-size: 20px;
+}
+button{
+    background-color: yellow;
+    height: 30px;width: 100px;
+}
+div{
+    border: 2px dashed black;
+    height: 300px;
+      width: 350px;
+}

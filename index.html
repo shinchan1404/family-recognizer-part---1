@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+               <title>FAMILY RECOGNIZER </title>   
+       <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <center>
+ <h1>FAMILY RECOGNIZER</h1>
+ <br><br><br>
+ <h2>it can recognize my :-</h2>
+
+ <br>
+ <br>
+ <h3>FATHER</h3>
+ <br>
+ <hr>
+ <br>
+ <h3>MOTHER</h3>
+ <br>
+ <hr>
+ <br>
+ <h3>SISTER</h3>
+ <br>
+ <hr>
+ <br>
+ <h3>ME</h3>
+ <br>
+ <hr>
+ <br><br>
+ <label>Webcam veiw-</label>
+ <br>
+ <div id="camera"></div>
+ <br>
+ <div id="result"></div>
+<br><br><br>
+<button onclick="takeSnap()">take snap</button>
+<br><br>
+<button onclick="check()">check</button>
+<br><br>
+<p style="font-size: 23px;">FAMILY MEMBER NAME :</p><span id="name" style="font-size: 24px;"></span>
+<p style="font-size: 23px;">ACCURACY :</p><span id="acc" style="font-size: 24px;"></span>
+</center>
+</body>
+
+</html>
